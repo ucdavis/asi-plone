@@ -23,11 +23,13 @@
 
 .laura-aside-1 {
   background: #404040;
-  font-color: #ffffff;
   max-width: 500px;
   padding: 10px;
 }
 
+#laura-aside-1 p {color: white;}
+#laura-aside-1 h2 {color: white;}
+#laura-aside-1 h3 {color: white;}
 
 @media all and (min-width: 600px) {
   .aside { flex: 1 auto; }
