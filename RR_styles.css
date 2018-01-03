@@ -28,6 +28,9 @@
   padding: 10px;
 }
 
+.laura aside-1 h3 { color:#fff; }
+.laura aside-1 p { color:#fff; }
+
 @media all and (min-width: 600px) {
   .aside { flex: 1 auto; }
 }
