@@ -17,16 +17,17 @@
 }
 
 .laura-footer {
-  background: lightgreen;
+  background: #e6e6e6;
 }
 
 .laura-main {
   text-align: left;
-  background: deepskyblue;
 }
 
 .laura-aside-1 {
-  background: gold;
+  background: #a6a6a6;
+  max-width: 400px;
+  padding: 10px;
 }
 
 
@@ -44,3 +45,4 @@
 body {
   padding: 2em; 
 }
+
