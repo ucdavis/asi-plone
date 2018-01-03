@@ -23,9 +23,7 @@
 
 .laura-aside-1 {
   background: #404040;
-  p color: white;
-  h2 color: white;
-  h3 color: white;
+  color: white;
   max-width: 500px;
   padding: 10px;
 }
