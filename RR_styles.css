@@ -47,3 +47,14 @@ body {
   padding: 2em; 
 }
 
+#grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  background: #e6e6e6;
+  grid-gap: 2vw;
+  }
+
+#grid > div {
+  padding: .5em;
+  text-align: center;
+}
