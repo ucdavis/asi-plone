@@ -71,6 +71,7 @@ body {
 }
 
 .flex-item {
+  background: white;
   font-size: 2em;
   padding: 5px;
   width: 400px;
