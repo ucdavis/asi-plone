@@ -1,39 +1,46 @@
 /*ASI Russell Ranch*/
 @import "compass/css3";
 
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+.laura-wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  text-align: justify;
 }
 
-.flex-item1 {
-  padding: 15px;
-  width: 500px;
-  height: 400px;
-  margin-top: 10px;
+.laura-wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
 }
 
-.flex-item2 {
-  background: #e6e9ef;
-  padding: 15px;
-  width: 450px;
-  height: 400px;
-  margin-top: 10px;
-  
-}
-.laura-wrapper .laura-first-section .col-right {
-  background-color:#e6e9ef;
+.laura-header {
+  background: tomato;
 }
 
-.laura-wrapper .laura-first-section .col-left {
+.laura-footer {
+  background: lightgreen;
+}
+
+.laura-main {
+  text-align: left;
+  background: deepskyblue;
+}
+
+.laura-aside-1 {
+  background: gold;
+}
+
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+  .laura-main    { flex: 3 0px; }
+   .laura-main    { order: 1; }
+  .laura-aside-1 { order: 2; } 
+  .laura-footer  { order: 3; }
+}
+
+body {
+  padding: 2em; 
 }
