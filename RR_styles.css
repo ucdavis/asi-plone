@@ -12,9 +12,6 @@
   flex: 1 100%;
 }
 
-.laura-header {
-  background: tomato;
-}
 
 .laura-footer {
   background: #f2f2f2;
@@ -26,7 +23,7 @@
 
 .laura-aside-1 {
   background: #404040;
-  color: #ffffff;
+  font-color: #ffffff;
   max-width: 500px;
   padding: 10px;
 }
