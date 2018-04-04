@@ -45,10 +45,6 @@
   .laura-footer  { order: 3; }
 }
 
-body {
-  padding: 2em; 
-}
-
 #grid { 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
