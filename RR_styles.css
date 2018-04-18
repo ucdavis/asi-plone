@@ -16,8 +16,8 @@
 
 .laura-footer {
   background: #f2f2f2;
-  color: black;
 }
+.laura-footer a { color:#000000; }
 
 .laura-main {
   text-align: left;
