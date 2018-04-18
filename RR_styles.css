@@ -10,6 +10,7 @@
 .laura-wrapper > * {
   padding: 10px;
   flex: 1 100%;
+  background-color: white;
 }
 
 
@@ -20,7 +21,6 @@
 .laura-main {
   text-align: left;
   color: white;
-  background-color: white;
 }
 .laura-main h3 { color:#000000; }
 .laura-main p { color:#000000; }
