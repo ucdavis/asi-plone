@@ -28,11 +28,11 @@
 .laura-aside-1 {
   background: #b3b3b3;
   max-width: 600px;
-  padding: 15px;
+  padding: 20px;
 }
 
-.laura-aside-1 h3 { color:#fff; }
-.laura-aside-1 p { color:#fff; }
+.laura-aside-1 h3 { color:#000000; }
+.laura-aside-1 p { color:#000000; }
 
 @media all and (min-width: 600px) {
   .aside { flex: 1 auto; }
