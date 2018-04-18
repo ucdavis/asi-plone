@@ -31,8 +31,8 @@
   padding: 20px;
 }
 
-.laura-aside-1 h3 { color:#000000; }
-.laura-aside-1 p { color:#000000; }
+.laura-aside-1 h3 { color:#ffffff; }
+.laura-aside-1 p { color:#ffffff; }
 
 @media all and (min-width: 600px) {
   .aside { flex: 1 auto; }
