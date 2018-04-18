@@ -34,9 +34,8 @@
 
 .laura-aside-1 h3 { color:#ffffff; }
 .laura-aside-1 p { color:#ffffff; }
-.laura-aside-1 a { 
-    color:#ffffff;
-    text-decoration: underline; }
+.laura-aside-1 a { color:#ffffff; }
+.laura-aside-1 a { text-decoration: underline; }
 
 @media all and (min-width: 600px) {
   .aside { flex: 1 auto; }
